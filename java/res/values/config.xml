@@ -37,28 +37,28 @@
          at input history to suggest a hopefully helpful suggestions for the next word? -->
     <bool name="config_default_bigram_prediction">false</bool>
     <bool name="config_default_sound_enabled">false</bool>
-    <bool name="config_default_vibration_enabled">true</bool>
+    <bool name="config_default_vibration_enabled">false</bool>
     <bool name="config_auto_correction_spacebar_led_enabled">false</bool>
     <!-- Showing mini keyboard, just above the touched point if true, aligned to the key if false -->
     <bool name="config_show_mini_keyboard_at_touched_point">false</bool>
     <!-- The language is never displayed if == 0, always displayed if < 0 -->
-    <integer name="config_delay_before_fadeout_language_on_spacebar">1200</integer>
-    <integer name="config_delay_update_suggestions">100</integer>
-    <integer name="config_delay_update_old_suggestions">300</integer>
-    <integer name="config_delay_update_shift_state">100</integer>
-    <integer name="config_duration_of_fadeout_language_on_spacebar">50</integer>
-    <integer name="config_final_fadeout_percentage_of_language_on_spacebar">50</integer>
+    <integer name="config_delay_before_fadeout_language_on_spacebar">1000</integer>
+    <integer name="config_delay_update_suggestions">70</integer>
+    <integer name="config_delay_update_old_suggestions">150</integer>
+    <integer name="config_delay_update_shift_state">70</integer>
+    <integer name="config_duration_of_fadeout_language_on_spacebar">30</integer>
+    <integer name="config_final_fadeout_percentage_of_language_on_spacebar">30</integer>
     <integer name="config_delay_before_preview">0</integer>
-    <integer name="config_delay_after_preview">70</integer>
+    <integer name="config_delay_after_preview">50</integer>
     <integer name="config_mini_keyboard_fadein_anim_time">0</integer>
-    <integer name="config_mini_keyboard_fadeout_anim_time">100</integer>
-    <integer name="config_delay_before_key_repeat_start">400</integer>
+    <integer name="config_mini_keyboard_fadeout_anim_time">50</integer>
+    <integer name="config_delay_before_key_repeat_start">350</integer>
     <integer name="config_key_repeat_interval">50</integer>
     <integer name="config_keyboard_grid_width">32</integer>
     <integer name="config_keyboard_grid_height">16</integer>
-    <integer name="config_long_press_key_timeout">400</integer>
+    <integer name="config_long_press_key_timeout">300</integer>
     <!-- Long pressing shift will invoke caps-lock if > 0, never invoke caps-lock if == 0 -->
-    <integer name="config_long_press_shift_key_timeout">1200</integer>
+    <integer name="config_long_press_shift_key_timeout">1000</integer>
     <!-- Long pressing space will invoke IME switcher if > 0, never invoke IME switcher if == 0 -->
     <integer name="config_long_press_space_key_timeout">@integer/config_long_press_key_timeout</integer>
     <integer name="config_touch_noise_threshold_millis">40</integer>
